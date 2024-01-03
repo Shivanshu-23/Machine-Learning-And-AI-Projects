@@ -1,0 +1,102 @@
+    body {
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+        height: 100vh; /* Make sure the content is centered vertically */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .left-side, .right-side {
+        width: 45%;
+        margin-top: 20px; /* Add some top margin for better spacing */
+    }
+
+    .left-side {
+        text-align: left;
+    }
+
+    .right-side {
+        text-align: right;
+    }
+
+    h1, h2, p {
+        color: #007BFF;
+    }
+
+    h1 {
+        font-size: 56px; /* Increase the font size for the heading */
+    }
+    h2 {
+        font-size: 46px; /* Increase the font size for the heading */
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    input[type="file"] {
+        margin-right: 10px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #fff; /* Set label text color to white */
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Style submit buttons */
+    input[type="submit"] {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    /* Add these styles to your existing CSS file */
+
+/* Style for the centered button at the bottom */
+.centered-button {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 24px; /* Adjust font size for bigger text */
+    border: none;
+    cursor: pointer;
+}
+
+.centered-button:hover {
+    background-color: #0056b3;
+}
+
+
